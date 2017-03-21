@@ -1,24 +1,4 @@
-# PlugApp
-
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add `plug_app` to your list of dependencies in `mix.exs`:
-
-    ```elixir
-    def deps do
-      [{:plug_app, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `plug_app` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:plug_app]]
-    end
-    ```
-
+1. `git clone https://github.com/formido/plug_app.git`
+2. `cd plug_app`
+3. `iex -S mix`
+4. Run `curl localhost:4001` from another shell.
