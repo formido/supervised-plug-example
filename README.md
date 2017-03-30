@@ -1,8 +1,8 @@
 Elixir Supervised Plug Example
 -----------------
 
-An example or template to quickly bootstrap a web app or API
-with a supervised Elixir plug application.
+An example or template to quickly bootstrap a web endpoint with a
+supervised Elixir plug application.
 
 1. `git clone https://github.com/formido/supervised-plug.git`
 2. `cd supervised-plug`
