@@ -6,7 +6,7 @@ defmodule PlugApp do
   def start(_type, _args) do
     children = [
       # Define workers and child supervisors to be supervised
-      Plug.Adapters.Cowboy.child_spec(:http, MyPlug, [], [port: 4001])
+      Plug.Adapters.Cowboy.child_spec(:http, MyPlug, [], [port: 8000])
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
